@@ -38,8 +38,10 @@ In order to build an image with BSP support for a given release, you need to dow
 ```shell
 ~ $ mkdir yocto; cd yocto
 ~/yocto $ git clone git://git.yoctoproject.org/poky -b honister
-~/yocto $ git clone https://github.com/openembedded/meta-openembedded.git -b honister
-~/yocto $ git clone https://github.com/JeffyCN/meta-rockchip.git -b honister
+~/yocto $ cd poky
+~/yocto/poky $ git clone https://github.com/openembedded/meta-openembedded.git -b honister
+~/yocto/poky $ git clone https://github.com/JeffyCN/meta-rockchip.git -b honister
+~/yocto/poky $ git clone https://github.com/engicam-stable/meta-engicam-rockchip.git -b honister
 ```
 
 And put the meta-engicam-rockchip layer here too.
