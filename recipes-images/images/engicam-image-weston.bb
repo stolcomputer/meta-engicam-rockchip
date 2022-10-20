@@ -1,6 +1,8 @@
 SUMMARY = "A very basic Wayland image with a terminal"
 
-IMAGE_FEATURES += "splash package-management ssh-server-dropbear hwcodecs weston"
+IMAGE_FEATURES += "splash package-management ssh-server-dropbear hwcodecs"
+
+CORE_IMAGE_EXTRA_INSTALL += "wayland weston"
 
 LICENSE = "MIT"
 
